@@ -1,1 +1,1 @@
-# fgc-common-js-app
+# fgc-common-js
