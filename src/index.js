@@ -1,6 +1,6 @@
 // Copyright (c) 2019 Fall Guy LLC All Rights Reserved.
 
-import * as vol from 'fgc/export';
+import * as vol from 'fgc';
 
 import './index.css';
 import 'semantic-ui-css/semantic.min.css';

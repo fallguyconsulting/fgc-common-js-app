@@ -193,7 +193,7 @@
                         "./src"
                     ],
                     "alias": {
-                        "fgc": "./src/packages/fgc-common-js-src"
+                        "fgc": "./src/packages/fgc-common-js-src/export"
                     }
                 }
             ],
