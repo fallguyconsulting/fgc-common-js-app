@@ -30,12 +30,13 @@ const App = () => {
                 <Route exact path = "/debug/cryptokey"          component = { vol.debug.CryptoKeyScreen }/>
                 <Route exact path = "/debug/dropzone"           component = { vol.debug.DropzoneScreen }/>
                 <Route exact path = "/debug/filepicker"         component = { vol.debug.FilePickerScreen }/>
+                <Route exact path = "/debug/fixedscroll"        component = { vol.debug.FixedRowScrollScreen }/>
                 <Route exact path = "/debug/handlebars"         component = { vol.debug.HandlebarsScreen }/>
-                <Route exact path = "/debug/infinitescroll"     component = { vol.debug.InfiniteScrollScreen }/>
                 <Route exact path = "/debug/mobx"               component = { vol.debug.MobXScreen }/>
                 <Route exact path = "/debug/print"              component = { vol.debug.PrintScreen }/>
                 <Route exact path = "/debug/textfitter"         component = { vol.debug.TextFitterScreen }/>
                 <Route exact path = "/debug/textstyle"          component = { vol.debug.TextStyleScreen }/>
+                <Route exact path = "/debug/variablescroll"     component = { vol.debug.VariableRowScrollScreen }/>
             </Switch>
         </div>
     </BrowserRouter>);
